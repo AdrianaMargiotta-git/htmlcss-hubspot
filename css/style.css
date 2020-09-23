@@ -1,0 +1,37 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* pagina */
+.contenitore {
+
+}
+
+
+/*header*/
+header{
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*main*/
+main{
+  height: 300px;
+  background-color: pink;
+}
+
+
+
+/* footer */
+footer {
+  /* debug */
+  height: 100px;
+  background-color: blue;
+
+  /* fine debug */
+}
