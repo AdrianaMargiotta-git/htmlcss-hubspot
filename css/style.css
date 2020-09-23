@@ -6,17 +6,63 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4{
+  font-family: sans-serif;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
 /* pagina */
-.contenitore {
-
-}
 
 
 /*header*/
 header{
-  height: 300px;
+  height: 600px;
   background-color: lightgrey;
+}
+
+nav{
+
+}
+
+.movibile{
+  height: 40px;
+  width: auto;
+  background-color: violet;
+  margin-top: 4px;
+}
+
+.fisso{
+  height: 40px;
+  width: auto;
+  background-color: green;
+}
+
+.jumbotron{
+  background-image: image(.../img/jumbotron.png);
+}
+
+.jumbotron-container {
+  width: 60%;
+  margin: 10px auto;
+  height: 400px;
+  background-color: red;
+}
+
+.rettangolo{
+  height: 50px;
+  width: 150px;
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*main*/
