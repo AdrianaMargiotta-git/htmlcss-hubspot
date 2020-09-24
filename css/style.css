@@ -192,39 +192,158 @@ main{
   /*section prima*/
   /*class cubo*/
   .prima{
-    height: 1000px;
-    background-color: red;
+    height: 1260px;
+    background-color: #f5f8fa;
+  }
+
+  .cubo img{
+    max-width: 290px;
   }
 
   .cubo{
     width:auto;
     text-align:center;
     padding:20px;
+    background-color: #f5f8fa;
   }
 
-  #id{
-    max-width:100%;
-    height:auto;
-  }
+
   /*fine class cubo*/
   /*class orizontal*/
   .orizontal{
-    background-color: khaki;
+    background-color: white;
     height: 300px;
   }
+
+  .h-imgbut{
+    float: left;
+    text-align: center;
+    width: 30%
+  }
+
+  .h-text{
+    float: left;
+    width: 70%;
+  }
+
+  li .line{
+    list-style-type: circle;
+    color: red;
+  }
+
+  .line{
+    display: inline-block;
+  }
+
   /*fine class orizontal*/
   /*class vertical*/
-  .orizontal{
-    background-color: coral;
-    height: 300px;
+  .verticale{
+    background-color: #f5f8fa;
+    /*height: 200px;*/
+    margin-top: 10%;
   }
+
+  .bottone-centrale{
+    padding: 16px;
+  }
+
+  .row-1{
+    float: left;
+    max-width: 30.3%;
+    /*height: 200px;*/
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5%;
+    margin-right: 3%
+    /*margin-right: 3%
+    padding: 3%;*/
+  }
+
+  .sinistra{
+    text-align: left;
+  }
+
+  .row-2{
+    float: left;
+    max-width: 30.3%;
+    /*height: 200px;*/
+    text-align: center;
+    /*padding: 3%;*/
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin-right: 3%;
+    /*margin-right: 3%;*/
+  }
+
+  .row-3{
+    float: left;
+    max-width: 33.3%;
+    /*height: 200px;*/
+    text-align: center;
+    border-radius: 5%;
+    /*padding: 3%;*/
+    background-color: #ffffff;
+  }
+
+
+  .row-1 img{
+    max-height: 100px;
+  }
+
+  .row-2 img{
+    max-height: 100px;
+  }
+
+  .row-3 img{
+    max-height: 100px;
+  }
+
   /*fine class vertical*/
 
 
   /*fine section prima*/
+
   .seconda{
-    background-color: orange;
-    height: 1000px;
+    background-color: lightblue;
+    /*padding: 4%;*/
+  }
+
+  .informazioni{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .griglia{
+    margin: 4%;
+  }
+
+  .square1{
+    float: left;
+    width:calc(25% - 1px);
+    padding: 0%;
+    text-align: center;
+  }
+
+  .square2{
+    float: left;
+    width:calc(25% - 1px);
+    padding: 0%;
+    text-align: center;
+  }
+
+  .square3{
+    float: left;
+    width:calc(25% - 1px);
+    padding: 3%;
+    text-align: center;
+  }
+
+  .square4{
+    float: left;
+    width:calc(25% - 1px);
+    padding: 3%;
+    text-align: center;
   }
 
   .terza{
@@ -239,6 +358,7 @@ footer {
   background-color: #2d3e50;
   /* fine debug */
 }
+
 
 section{
   width: 60%;
@@ -336,4 +456,9 @@ section{
   width: calc(100% / 2);
   text-align: right;
   background-color: #2d3e50;
+}
+
+.fa-check-circle{
+  color: white;
+  background-color: orange;
 }
