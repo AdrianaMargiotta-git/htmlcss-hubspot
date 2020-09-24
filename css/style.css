@@ -185,11 +185,52 @@ nav{
 
 /*main*/
 main{
-  height: 800px;
+  height: 3000px;
   background-color: pink;
 }
 
+  /*section prima*/
+  /*class cubo*/
+  .prima{
+    height: 1000px;
+    background-color: red;
+  }
 
+  .cubo{
+    width:auto;
+    text-align:center;
+    padding:20px;
+  }
+
+  #id{
+    max-width:100%;
+    height:auto;
+  }
+  /*fine class cubo*/
+  /*class orizontal*/
+  .orizontal{
+    background-color: khaki;
+    height: 300px;
+  }
+  /*fine class orizontal*/
+  /*class vertical*/
+  .orizontal{
+    background-color: coral;
+    height: 300px;
+  }
+  /*fine class vertical*/
+
+
+  /*fine section prima*/
+  .seconda{
+    background-color: orange;
+    height: 1000px;
+  }
+
+  .terza{
+    background-color: green;
+    height: 1000px;
+  }
 
 /* footer */
 footer {
@@ -231,6 +272,7 @@ section{
   background-color: #2d3e50;
   margin-left: 0px;
 }
+
 .ft2{
   float: left;
   display: block;
@@ -248,6 +290,7 @@ section{
   width: auto;
   margin-left: 10px;
 }
+
 .ft4{
   float: left;
   display: block;
@@ -276,8 +319,6 @@ section{
 }
 
 /*CopyRight*/
-
-
 
 .sx{
   float: left;
