@@ -8,8 +8,6 @@
 
 h1, h2, h3, h4{
   font-family: sans-serif;
-/*  margin-top: 6px;
-  margin-left: 6px;*/
 }
 
 a{
@@ -29,10 +27,14 @@ ul{
   padding: 0;
 }
 
-li .inizio{
+/*li .inizio{
   display: inline-block;
   margin-right: 3%;
   position: absolute;
+}*/
+
+.inizio{
+  display: inline-block;
 }
 
 .clearfix::after {
@@ -49,19 +51,14 @@ hr{
   color: #546b83;
 }
 
-/* pagina */
+/*header*/
 
-
-/*header*
-
-
-/*
 nav{
   width: 60%;
   margin: 10px auto;
-  height: 400px;
+  height:40px;
 }
-*/
+
 .movibile{
   position: relative;
   min-height: 60px;
@@ -72,10 +69,13 @@ nav{
   color: #33475b;
 }
 
+.vuoto{
+  display: none;
+}
+
 .navtotal{
   position: absolute;
   width: 65%;
-  top: 50%
   margin: auto;
   transform: translate(-50%);
 }
@@ -84,11 +84,11 @@ nav{
   float: left;
   padding: 8px 0px;
   color: #00a4bf;
-  width: calc(100% / 2);
+  /*width: calc(100% / 2);*/
 }
 
 .navright{
-  float: right;
+  float: left;
   position: absolute;
   text-align: right;
   color: #00a4bf;
@@ -155,14 +155,6 @@ nav{
   position: relative;
 }
 
-/*.jumbotron-container {
-  position: relative;
-  width: 60%;
-  margin: 10px auto;
-  height: 400px;
-  background-color: red;
-}*/
-
 .jumbotron-text{
   position: absolute;
   top:50%;
@@ -175,7 +167,7 @@ nav{
 .rettangolo-arancio{
   height: 50px;
   width: 150px;
-  background-color: orange;
+  background-color: #ff7a59;
   text-align: center;
   padding: 10px;
   margin-top: 10px;
@@ -185,14 +177,13 @@ nav{
 
 /*main*/
 main{
-  height: 3000px;
-  background-color: pink;
+  background-color: #f5f8fa;
 }
 
   /*section prima*/
   /*class cubo*/
   .prima{
-    height: 1260px;
+    min-height: 1260px;
     background-color: #f5f8fa;
   }
 
@@ -207,8 +198,8 @@ main{
     background-color: #f5f8fa;
   }
 
-
   /*fine class cubo*/
+
   /*class orizontal*/
   .orizontal{
     background-color: white;
@@ -234,12 +225,11 @@ main{
   .line{
     display: inline-block;
   }
-
   /*fine class orizontal*/
+
   /*class vertical*/
   .verticale{
     background-color: #f5f8fa;
-    /*height: 200px;*/
     margin-top: 10%;
   }
 
@@ -250,13 +240,10 @@ main{
   .row-1{
     float: left;
     max-width: 30.3%;
-    /*height: 200px;*/
     background-color: #ffffff;
     text-align: center;
     border-radius: 5%;
-    margin-right: 3%
-    /*margin-right: 3%
-    padding: 3%;*/
+    margin-right: 3%;
   }
 
   .sinistra{
@@ -266,25 +253,19 @@ main{
   .row-2{
     float: left;
     max-width: 30.3%;
-    /*height: 200px;*/
     text-align: center;
-    /*padding: 3%;*/
     background-color: #ffffff;
     border-radius: 5%;
     margin-right: 3%;
-    /*margin-right: 3%;*/
   }
 
   .row-3{
     float: left;
     max-width: 33.3%;
-    /*height: 200px;*/
     text-align: center;
     border-radius: 5%;
-    /*padding: 3%;*/
     background-color: #ffffff;
   }
-
 
   .row-1 img{
     max-height: 100px;
@@ -297,15 +278,12 @@ main{
   .row-3 img{
     max-height: 100px;
   }
-
   /*fine class vertical*/
-
-
   /*fine section prima*/
 
+  /*inizio section due*/
   .seconda{
-    background-color: lightblue;
-    /*padding: 4%;*/
+    background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
   }
 
   .informazioni{
@@ -345,20 +323,54 @@ main{
     padding: 3%;
     text-align: center;
   }
+  /*fine section due*/
 
+  /*inizio section tre*/
   .terza{
     background-color: green;
-    height: 1000px;
+    min-height: 400px;
   }
+
+  .contenitore-terza{
+    min-width: 100%;
+    background-color: #ffffff;
+  }
+
+  .sx2{
+    float: left;
+    padding: 8px 0px;
+    min-width: 40%;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .dx2{
+    float: left;
+    min-width: 59.9%;
+    background-color: #ffffff;
+    text-align: center;
+   }
+
+  .img-terza{
+    max-height: 20px;
+    margin: 6px;
+  }
+
+  .img-terzadue{
+    max-height: 200px;
+    margin: 6px;
+  }
+
+  #section-tre-p{
+    font-size: 10px;
+  }
+  /*fine section tre*/
 
 /* footer */
 footer {
-  /* debug */
   height: 400px;
   background-color: #2d3e50;
-  /* fine debug */
 }
-
 
 section{
   width: 60%;
@@ -368,7 +380,6 @@ section{
 
 .contenitore-footer{
   width: 100%;
-  /*margin: 10px auto;*/
   height: 400px;
   background-color: #2d3e50;
 }
@@ -399,8 +410,6 @@ section{
   height: auto;
   width: auto;
   margin-left: 10px;
-  /*margin-left: 2px;
-  margin-right: 2px;*/
 }
 
 .ft3{
@@ -459,6 +468,5 @@ section{
 }
 
 .fa-check-circle{
-  color: white;
-  background-color: orange;
+  color: orange;
 }
