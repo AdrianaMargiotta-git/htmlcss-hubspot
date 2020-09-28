@@ -57,6 +57,7 @@ main{
   position: relative;
   height: 149px;
   background-color: #ffffff;
+  z-index: 2;
 }
 
 .navi{
@@ -125,6 +126,7 @@ main{
   position: relative;
   height: 74px;
   background-color: #ffffff;
+  z-index: 1;
 }
 
 .navi2{
