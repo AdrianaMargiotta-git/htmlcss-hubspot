@@ -53,47 +53,50 @@ hr{
 
 /*header*/
 
-nav{
+/*nav{
   width: 60%;
   margin: 10px auto;
   height:40px;
-}
+}*/
 
 .movibile{
   position: relative;
   min-height: 60px;
-  width: auto;
   background-color: #f4f9fd;
-  margin-top: 4px;
-  margin-left:4px;
   color: #33475b;
+}
+
+.navi{
+  position: relative;
+  min-width: 60%;
+  margin: auto;
+  transform: translateY(-50%);
+  top: 50%;
 }
 
 .vuoto{
   display: none;
 }
 
-.navtotal{
+/*.navtotal{
   position: absolute;
   width: 65%;
   margin: auto;
   transform: translate(-50%);
-}
+}*/
 
 .navleft{
   float: left;
   padding: 8px 0px;
   color: #00a4bf;
-  /*width: calc(100% / 2);*/
+  width: calc(100% / 2);
 }
 
 .navright{
   float: left;
-  position: absolute;
   text-align: right;
   color: #00a4bf;
   width: calc(100% / 2);
-  margin-left: 90px;
 }
 
 /*dropdown regole nav lingue*/
@@ -135,13 +138,10 @@ nav{
 
 /*questa barra dovra rimare fissa*/
 .fisso{
-  min-height: 60px;
-  width: auto;
-  background-color: green;
   position: relative;
-  display: inline-block;
-  margin-top: 4px;
-  margin-left: 4px;
+  min-height: 60px;
+  background-color: green;
+  color: #33475b;
 }
 /*fine*/
 
